@@ -7,107 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F699A6820B8093E0064B970 /* CYAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F699A5E20B8093E0064B970 /* CYAudioPlayer.framework */; };
-		6F699A6D20B8093E0064B970 /* CYAudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699A6C20B8093E0064B970 /* CYAudioPlayerTests.m */; };
-		6F699A6F20B8093E0064B970 /* CYAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F699A6120B8093E0064B970 /* CYAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F699A8620B80B1B0064B970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699A8520B80B1B0064B970 /* AppDelegate.m */; };
+		6F699A8920B80B1B0064B970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699A8820B80B1B0064B970 /* ViewController.m */; };
+		6F699A8C20B80B1B0064B970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F699A8A20B80B1B0064B970 /* Main.storyboard */; };
+		6F699A8E20B80B1C0064B970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F699A8D20B80B1C0064B970 /* Assets.xcassets */; };
+		6F699A9120B80B1C0064B970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F699A8F20B80B1C0064B970 /* LaunchScreen.storyboard */; };
+		6F699A9420B80B1C0064B970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699A9320B80B1C0064B970 /* main.m */; };
+		6F699A9E20B80B1C0064B970 /* CYAudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699A9D20B80B1C0064B970 /* CYAudioPlayerTests.m */; };
+		6F699AA920B80B1C0064B970 /* CYAudioPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F699AA820B80B1C0064B970 /* CYAudioPlayerUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F699A6920B8093E0064B970 /* PBXContainerItemProxy */ = {
+		6F699A9A20B80B1C0064B970 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6F699A5520B8093E0064B970 /* Project object */;
+			containerPortal = 6F699A7920B80B1B0064B970 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F699A5D20B8093E0064B970;
+			remoteGlobalIDString = 6F699A8020B80B1B0064B970;
+			remoteInfo = CYAudioPlayer;
+		};
+		6F699AA520B80B1C0064B970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F699A7920B80B1B0064B970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F699A8020B80B1B0064B970;
 			remoteInfo = CYAudioPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F699A5E20B8093E0064B970 /* CYAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CYAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F699A6120B8093E0064B970 /* CYAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAudioPlayer.h; sourceTree = "<group>"; };
-		6F699A6220B8093E0064B970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F699A6720B8093E0064B970 /* CYAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F699A6C20B8093E0064B970 /* CYAudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAudioPlayerTests.m; sourceTree = "<group>"; };
-		6F699A6E20B8093E0064B970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F699A8120B80B1B0064B970 /* CYAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F699A8420B80B1B0064B970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F699A8520B80B1B0064B970 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F699A8720B80B1B0064B970 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F699A8820B80B1B0064B970 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F699A8B20B80B1B0064B970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F699A8D20B80B1C0064B970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F699A9020B80B1C0064B970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F699A9220B80B1C0064B970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F699A9320B80B1C0064B970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F699A9920B80B1C0064B970 /* CYAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F699A9D20B80B1C0064B970 /* CYAudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAudioPlayerTests.m; sourceTree = "<group>"; };
+		6F699A9F20B80B1C0064B970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F699AA420B80B1C0064B970 /* CYAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F699AA820B80B1C0064B970 /* CYAudioPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAudioPlayerUITests.m; sourceTree = "<group>"; };
+		6F699AAA20B80B1C0064B970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F699A5A20B8093E0064B970 /* Frameworks */ = {
+		6F699A7E20B80B1B0064B970 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F699A6420B8093E0064B970 /* Frameworks */ = {
+		6F699A9620B80B1C0064B970 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F699A6820B8093E0064B970 /* CYAudioPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F699AA120B80B1C0064B970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F699A5420B8093E0064B970 = {
+		6F699A7820B80B1B0064B970 = {
 			isa = PBXGroup;
 			children = (
-				6F699A6020B8093E0064B970 /* AudioPlayer */,
-				6F699A6B20B8093E0064B970 /* CYAudioPlayerTests */,
-				6F699A5F20B8093E0064B970 /* Products */,
+				6F699A8320B80B1B0064B970 /* AudioPlayer */,
+				6F699A9C20B80B1C0064B970 /* CYAudioPlayerTests */,
+				6F699AA720B80B1C0064B970 /* CYAudioPlayerUITests */,
+				6F699A8220B80B1B0064B970 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6F699A5F20B8093E0064B970 /* Products */ = {
+		6F699A8220B80B1B0064B970 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F699A5E20B8093E0064B970 /* CYAudioPlayer.framework */,
-				6F699A6720B8093E0064B970 /* CYAudioPlayerTests.xctest */,
+				6F699A8120B80B1B0064B970 /* CYAudioPlayer.app */,
+				6F699A9920B80B1C0064B970 /* CYAudioPlayerTests.xctest */,
+				6F699AA420B80B1C0064B970 /* CYAudioPlayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F699A6020B8093E0064B970 /* AudioPlayer */ = {
+		6F699A8320B80B1B0064B970 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				6F699A6120B8093E0064B970 /* CYAudioPlayer.h */,
-				6F699A6220B8093E0064B970 /* Info.plist */,
+				6F699A8420B80B1B0064B970 /* AppDelegate.h */,
+				6F699A8520B80B1B0064B970 /* AppDelegate.m */,
+				6F699A8720B80B1B0064B970 /* ViewController.h */,
+				6F699A8820B80B1B0064B970 /* ViewController.m */,
+				6F699A8A20B80B1B0064B970 /* Main.storyboard */,
+				6F699A8D20B80B1C0064B970 /* Assets.xcassets */,
+				6F699A8F20B80B1C0064B970 /* LaunchScreen.storyboard */,
+				6F699A9220B80B1C0064B970 /* Info.plist */,
+				6F699A9320B80B1C0064B970 /* main.m */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
 		};
-		6F699A6B20B8093E0064B970 /* CYAudioPlayerTests */ = {
+		6F699A9C20B80B1C0064B970 /* CYAudioPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				6F699A6C20B8093E0064B970 /* CYAudioPlayerTests.m */,
-				6F699A6E20B8093E0064B970 /* Info.plist */,
+				6F699A9D20B80B1C0064B970 /* CYAudioPlayerTests.m */,
+				6F699A9F20B80B1C0064B970 /* Info.plist */,
 			);
 			path = CYAudioPlayerTests;
 			sourceTree = "<group>";
 		};
+		6F699AA720B80B1C0064B970 /* CYAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F699AA820B80B1C0064B970 /* CYAudioPlayerUITests.m */,
+				6F699AAA20B80B1C0064B970 /* Info.plist */,
+			);
+			path = CYAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6F699A5B20B8093E0064B970 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F699A6F20B8093E0064B970 /* CYAudioPlayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6F699A5D20B8093E0064B970 /* CYAudioPlayer */ = {
+		6F699A8020B80B1B0064B970 /* CYAudioPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F699A7220B8093E0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayer" */;
+			buildConfigurationList = 6F699AAD20B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayer" */;
 			buildPhases = (
-				6F699A5920B8093E0064B970 /* Sources */,
-				6F699A5A20B8093E0064B970 /* Frameworks */,
-				6F699A5B20B8093E0064B970 /* Headers */,
-				6F699A5C20B8093E0064B970 /* Resources */,
+				6F699A7D20B80B1B0064B970 /* Sources */,
+				6F699A7E20B80B1B0064B970 /* Frameworks */,
+				6F699A7F20B80B1B0064B970 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,71 +149,106 @@
 			);
 			name = CYAudioPlayer;
 			productName = CYAudioPlayer;
-			productReference = 6F699A5E20B8093E0064B970 /* CYAudioPlayer.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6F699A8120B80B1B0064B970 /* CYAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
 		};
-		6F699A6620B8093E0064B970 /* CYAudioPlayerTests */ = {
+		6F699A9820B80B1C0064B970 /* CYAudioPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F699A7520B8093E0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerTests" */;
+			buildConfigurationList = 6F699AB020B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerTests" */;
 			buildPhases = (
-				6F699A6320B8093E0064B970 /* Sources */,
-				6F699A6420B8093E0064B970 /* Frameworks */,
-				6F699A6520B8093E0064B970 /* Resources */,
+				6F699A9520B80B1C0064B970 /* Sources */,
+				6F699A9620B80B1C0064B970 /* Frameworks */,
+				6F699A9720B80B1C0064B970 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F699A6A20B8093E0064B970 /* PBXTargetDependency */,
+				6F699A9B20B80B1C0064B970 /* PBXTargetDependency */,
 			);
 			name = CYAudioPlayerTests;
 			productName = CYAudioPlayerTests;
-			productReference = 6F699A6720B8093E0064B970 /* CYAudioPlayerTests.xctest */;
+			productReference = 6F699A9920B80B1C0064B970 /* CYAudioPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F699AA320B80B1C0064B970 /* CYAudioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F699AB320B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerUITests" */;
+			buildPhases = (
+				6F699AA020B80B1C0064B970 /* Sources */,
+				6F699AA120B80B1C0064B970 /* Frameworks */,
+				6F699AA220B80B1C0064B970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F699AA620B80B1C0064B970 /* PBXTargetDependency */,
+			);
+			name = CYAudioPlayerUITests;
+			productName = CYAudioPlayerUITests;
+			productReference = 6F699AA420B80B1C0064B970 /* CYAudioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6F699A5520B8093E0064B970 /* Project object */ = {
+		6F699A7920B80B1B0064B970 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = CoLcY;
 				TargetAttributes = {
-					6F699A5D20B8093E0064B970 = {
+					6F699A8020B80B1B0064B970 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					6F699A6620B8093E0064B970 = {
+					6F699A9820B80B1C0064B970 = {
 						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6F699A8020B80B1B0064B970;
+					};
+					6F699AA320B80B1C0064B970 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6F699A8020B80B1B0064B970;
 					};
 				};
 			};
-			buildConfigurationList = 6F699A5820B8093E0064B970 /* Build configuration list for PBXProject "CYAudioPlayer" */;
+			buildConfigurationList = 6F699A7C20B80B1B0064B970 /* Build configuration list for PBXProject "CYAudioPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 6F699A5420B8093E0064B970;
-			productRefGroup = 6F699A5F20B8093E0064B970 /* Products */;
+			mainGroup = 6F699A7820B80B1B0064B970;
+			productRefGroup = 6F699A8220B80B1B0064B970 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F699A5D20B8093E0064B970 /* CYAudioPlayer */,
-				6F699A6620B8093E0064B970 /* CYAudioPlayerTests */,
+				6F699A8020B80B1B0064B970 /* CYAudioPlayer */,
+				6F699A9820B80B1C0064B970 /* CYAudioPlayerTests */,
+				6F699AA320B80B1C0064B970 /* CYAudioPlayerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F699A5C20B8093E0064B970 /* Resources */ = {
+		6F699A7F20B80B1B0064B970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F699A9120B80B1C0064B970 /* LaunchScreen.storyboard in Resources */,
+				6F699A8E20B80B1C0064B970 /* Assets.xcassets in Resources */,
+				6F699A8C20B80B1B0064B970 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F699A9720B80B1C0064B970 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F699A6520B8093E0064B970 /* Resources */ = {
+		6F699AA220B80B1C0064B970 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,33 +258,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F699A5920B8093E0064B970 /* Sources */ = {
+		6F699A7D20B80B1B0064B970 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F699A8920B80B1B0064B970 /* ViewController.m in Sources */,
+				6F699A9420B80B1C0064B970 /* main.m in Sources */,
+				6F699A8620B80B1B0064B970 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F699A6320B8093E0064B970 /* Sources */ = {
+		6F699A9520B80B1C0064B970 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F699A6D20B8093E0064B970 /* CYAudioPlayerTests.m in Sources */,
+				6F699A9E20B80B1C0064B970 /* CYAudioPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F699AA020B80B1C0064B970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F699AA920B80B1C0064B970 /* CYAudioPlayerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F699A6A20B8093E0064B970 /* PBXTargetDependency */ = {
+		6F699A9B20B80B1C0064B970 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F699A5D20B8093E0064B970 /* CYAudioPlayer */;
-			targetProxy = 6F699A6920B8093E0064B970 /* PBXContainerItemProxy */;
+			target = 6F699A8020B80B1B0064B970 /* CYAudioPlayer */;
+			targetProxy = 6F699A9A20B80B1C0064B970 /* PBXContainerItemProxy */;
+		};
+		6F699AA620B80B1C0064B970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F699A8020B80B1B0064B970 /* CYAudioPlayer */;
+			targetProxy = 6F699AA520B80B1C0064B970 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		6F699A8A20B80B1B0064B970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F699A8B20B80B1B0064B970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F699A8F20B80B1C0064B970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F699A9020B80B1C0064B970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		6F699A7020B8093E0064B970 /* Debug */ = {
+		6F699AAB20B80B1C0064B970 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +353,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -271,12 +374,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6F699A7120B8093E0064B970 /* Release */ = {
+		6F699AAC20B80B1C0064B970 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +411,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -326,62 +426,47 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6F699A7320B8093E0064B970 /* Debug */ = {
+		6F699AAE20B80B1C0064B970 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YJ9WB9TLST;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CYAudioPlayer/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6F699A7420B8093E0064B970 /* Release */ = {
+		6F699AAF20B80B1C0064B970 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YJ9WB9TLST;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CYAudioPlayer/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		6F699A7620B8093E0064B970 /* Debug */ = {
+		6F699AB120B80B1C0064B970 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ9WB9TLST;
 				INFOPLIST_FILE = CYAudioPlayerTests/Info.plist;
@@ -393,12 +478,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYAudioPlayer.app/CYAudioPlayer";
 			};
 			name = Debug;
 		};
-		6F699A7720B8093E0064B970 /* Release */ = {
+		6F699AB220B80B1C0064B970 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ9WB9TLST;
 				INFOPLIST_FILE = CYAudioPlayerTests/Info.plist;
@@ -410,40 +497,86 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYAudioPlayer.app/CYAudioPlayer";
+			};
+			name = Release;
+		};
+		6F699AB420B80B1C0064B970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ9WB9TLST;
+				INFOPLIST_FILE = CYAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYAudioPlayer;
+			};
+			name = Debug;
+		};
+		6F699AB520B80B1C0064B970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ9WB9TLST;
+				INFOPLIST_FILE = CYAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colcy.CYAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYAudioPlayer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F699A5820B8093E0064B970 /* Build configuration list for PBXProject "CYAudioPlayer" */ = {
+		6F699A7C20B80B1B0064B970 /* Build configuration list for PBXProject "CYAudioPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F699A7020B8093E0064B970 /* Debug */,
-				6F699A7120B8093E0064B970 /* Release */,
+				6F699AAB20B80B1C0064B970 /* Debug */,
+				6F699AAC20B80B1C0064B970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F699A7220B8093E0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayer" */ = {
+		6F699AAD20B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F699A7320B8093E0064B970 /* Debug */,
-				6F699A7420B8093E0064B970 /* Release */,
+				6F699AAE20B80B1C0064B970 /* Debug */,
+				6F699AAF20B80B1C0064B970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F699A7520B8093E0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerTests" */ = {
+		6F699AB020B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F699A7620B8093E0064B970 /* Debug */,
-				6F699A7720B8093E0064B970 /* Release */,
+				6F699AB120B80B1C0064B970 /* Debug */,
+				6F699AB220B80B1C0064B970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F699AB320B80B1C0064B970 /* Build configuration list for PBXNativeTarget "CYAudioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F699AB420B80B1C0064B970 /* Debug */,
+				6F699AB520B80B1C0064B970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6F699A5520B8093E0064B970 /* Project object */;
+	rootObject = 6F699A7920B80B1B0064B970 /* Project object */;
 }
