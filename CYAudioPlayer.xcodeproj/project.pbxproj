@@ -81,7 +81,7 @@
 		6F699A7820B80B1B0064B970 = {
 			isa = PBXGroup;
 			children = (
-				6F699A8320B80B1B0064B970 /* AudioPlayer */,
+				6F699A8320B80B1B0064B970 /* Example */,
 				6F699A9C20B80B1C0064B970 /* CYAudioPlayerTests */,
 				6F699AA720B80B1C0064B970 /* CYAudioPlayerUITests */,
 				6F699A8220B80B1B0064B970 /* Products */,
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F699A8320B80B1B0064B970 /* AudioPlayer */ = {
+		6F699A8320B80B1B0064B970 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				6F699A8420B80B1B0064B970 /* AppDelegate.h */,
@@ -111,7 +111,7 @@
 				6F699A9220B80B1C0064B970 /* Info.plist */,
 				6F699A9320B80B1C0064B970 /* main.m */,
 			);
-			path = AudioPlayer;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		6F699A9C20B80B1C0064B970 /* CYAudioPlayerTests */ = {
